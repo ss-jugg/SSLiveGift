@@ -1,0 +1,6 @@
+framework module SSLiveGift {
+  umbrella header "SSLiveGift-umbrella.h"
+
+  export *
+  module * { export * }
+}

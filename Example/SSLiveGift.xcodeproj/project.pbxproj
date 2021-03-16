@@ -22,7 +22,6 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		652779E0E8315A05A8DBDD8E /* Pods_SSLiveGift_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C7C5E8538DBC85CEA271656 /* Pods_SSLiveGift_Example.framework */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		B99319B9D96C8C99371F1D23 /* Pods_SSLiveGift_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F3769683667176E49170C3 /* Pods_SSLiveGift_Tests.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		203D4BF49645D3BA5F99449A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		203D4BF49645D3BA5F99449A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* SSLiveGift_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSLiveGift_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -59,12 +58,11 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		66751E33E8428151BF19CB68 /* Pods-SSLiveGift_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLiveGift_Example.debug.xcconfig"; path = "Target Support Files/Pods-SSLiveGift_Example/Pods-SSLiveGift_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C7C5E8538DBC85CEA271656 /* Pods_SSLiveGift_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLiveGift_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAEAD6ED6FE3735463F45558 /* Pods-SSLiveGift_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLiveGift_Example.release.xcconfig"; path = "Target Support Files/Pods-SSLiveGift_Example/Pods-SSLiveGift_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C0F3769683667176E49170C3 /* Pods_SSLiveGift_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSLiveGift_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C61A20E3355C07EEEB1C0BFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D88104B542835C3D3A341EFC /* SSLiveGift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = SSLiveGift.podspec; path = ../SSLiveGift.podspec; sourceTree = "<group>"; };
+		C61A20E3355C07EEEB1C0BFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D88104B542835C3D3A341EFC /* SSLiveGift.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = SSLiveGift.podspec; path = ../SSLiveGift.podspec; sourceTree = "<group>"; };
 		F08DB605975EF95A0887BE88 /* Pods-SSLiveGift_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLiveGift_Tests.debug.xcconfig"; path = "Target Support Files/Pods-SSLiveGift_Tests/Pods-SSLiveGift_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F74484EBB460336F3B2E0E65 /* Pods-SSLiveGift_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSLiveGift_Tests.release.xcconfig"; path = "Target Support Files/Pods-SSLiveGift_Tests/Pods-SSLiveGift_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -103,7 +101,6 @@
 				F08DB605975EF95A0887BE88 /* Pods-SSLiveGift_Tests.debug.xcconfig */,
 				F74484EBB460336F3B2E0E65 /* Pods-SSLiveGift_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,7 +143,6 @@
 			children = (
 				6003F59C195388D20070C39A /* SSAppDelegate.h */,
 				6003F59D195388D20070C39A /* SSAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* SSViewController.h */,
 				6003F5A6195388D20070C39A /* SSViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
@@ -258,6 +254,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -277,7 +274,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,

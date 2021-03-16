@@ -1,0 +1,16 @@
+PODS:
+  - SSLiveGift (0.1.0)
+
+DEPENDENCIES:
+  - SSLiveGift (from `../`)
+
+EXTERNAL SOURCES:
+  SSLiveGift:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SSLiveGift: 177e9911164a914d133ab001bf80494cab702196
+
+PODFILE CHECKSUM: 69822c50f736a33cd0bad728de2e591f5e68abf7
+
+COCOAPODS: 1.9.2

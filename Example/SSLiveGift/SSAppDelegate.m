@@ -7,12 +7,19 @@
 //
 
 #import "SSAppDelegate.h"
+#import "SSViewController.h"
 
 @implementation SSAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor lightGrayColor];
+    UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:[[SSViewController alloc] init]];
+    self.window.rootViewController = navController;
+    [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
