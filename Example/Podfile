@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'SSLiveGift_Example' do
+  pod 'SSLiveGift', :path => '../'
+
+  target 'SSLiveGift_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
